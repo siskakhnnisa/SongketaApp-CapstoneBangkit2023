@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">Songket_Recognition_App</string>
+
+    //General stuff
+    <string name="username">Username</string>
+    <string name="profile">Profile</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="home">Home</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="scan">Scan</string>
+    <string name="province">Province</string>
+    <string name="phone">Phone</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+
+    //Maps stuff
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="normal">Normal</string>
+    <string name="satellite">Satellite</string>
+    <string name="terrain">Terrain</string>
+    <string name="hybrid">Hybrid</string>
+
+
+    //Sign In and Sign Up stuff
+    <string name="create_new_account_here">Create New Account Here</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="show_password">Show Password</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_in_here">Sign In here</string>
+
+    <string name="signin_to_your_account">Sign In to Your Account</string>
+    <string name="havent_have_account">Do not have an account yet?</string>
+    <string name="signup_here">Sign Up here</string>
+    <string name="new_password">New Password</string>
+    <string name="enter_new_password">Enter new password</string>
+
+    //Welcome stuff
+    <string name="opening1">Let\'s discover\nIndonesia Songket fabric</string>
+    <string name="sub_opening1">Take this opportunity to learn about\nIndonesian Songket.</string>
+
+    //List and Bookmark stuff
+    <string name="search_here">Search Here…</string>
+    <string name="empty_search_notification">No items found for the given search query.</string>
+    <string name="cannot_get_data">Cannot Get the data: %s</string>
+    <string name="something_error">Something Error</string>
+
+    //Camera stuff
+    <string name="galery">Galery</string>
+    <string name="camera">Camera</string>
+    <string name="check_out">Check Out</string>
+    <string name="photo_picker">Photo Picker</string>
+    <string name="no_media_selected">No media selected</string>
+
+    //Home stuff
+    <string name="article">Article</string>
+    <string name="menus">Find out more</string>
+    <string name="welcome">Welcome</string>
+    <string name="advertisement">Advertisement</string>
+    <string name="you_may_be_interested">You may be Interested</string>
+    <string name="explore_more">Explore more >> </string>
+    <string name="market_finder">Market Finder</string>
+    <string name="scanner">Scanner</string>
+    <string name="list_songket">List Songket</string>
+    <string name="location_permission_granted">Location permission granted.</string>
+    <string name="location_permission_denied">Location permission denied.</string>
+    <string name="map_search_keyword">fabric store</string>
+    <string name="google_maps_not_installed">Google Maps app is not installed.</string>
+    <string name="feature_not_available_yet">Features not available yet</string>
+
+
+    //Profile stuff
+    <string name="button_language">Button Change Language</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="language">Language</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="log_out_button">Log out Button</string>
+
+
+    //Content Description and tools preview
+    <string name="songketa_logo">songketa_logo</string>
+    <string name="image_songket">Songket Image</string>
+    <string name="profile_image">Logo Image</string>
+    <string name="background_image">Background Image</string>
+    <string name="market_finder_button">Market Finder Button</string>
+    <string name="scanner_button">Scanner Button</string>
+    <string name="list_songket_button">List Songket Button</string>
+    <string name="article_button">Article Button</string>
+    <string name="image_preview">Image Preview</string>
+    <string name="songket_dummy">Songket Dummy</string>
+    <string name="province_dummy">Province Dummy</string>
+    <string name="desc_dummy">Lorem Ipsum Dolor Sit Amet</string>
+    <string name="menu_dummy">menu</string>
+    <string name="pattern_dummy">Pattern Dummy</string>
+    <string name="check_detail">Check Detail</string>
+    <string name="songketa_quote">Songketa Quote</string>
+    <string name="login_image">Login Image</string>
+    <string name="register_image">Register Image</string>
+    <string name="bookmark_button">Bookmark Button</string>
+    <string name="detail_icon">Detail Icon</string>
+    <string name="home_button">Home Button</string>
+
+    //Detail stuff
+    <string name="details">Details</string>
+    <string name="fabric_origin">Fabric Origin</string>
+    <string name="fabric_pattern">Fabric Pattern</string>
+    <string name="description">Description</string>
+    <string name="deleted">Deleted from bookmark</string>
+    <string name="favorite">Added to bookmark</string>
+
+    //Camera stuff start
+    <string name="upload_succes_notif">Sukses</string>
+
+
+    //Alert Dialog Start
+    <string name="head_notif_succes">Succes!</string>
+    <string name="login_succes_notif">Login Succes, Welcome</string>
+
+    <string name="head_notif_failed">Failed!</string>
+    <string name="login_failed_notif">Login Failed, Retry</string>
+
+    <string name="next_notif">Login</string>
+    <string name="failed_notif">Retry</string>
+
+    <string name="register_succes_notif">Register Succes</string>
+    <string name="register_failed_notif">Register Failed</string>
+
+    <string name="warning_notif">WARNING</string>
+    <string name="question_notif">Are you sure want to log out?</string>
+    <string name="logout_notif">Logout</string>
+    <string name="return_notif">Return</string>
+
+    <string name="message">Features still not available</string>
+    <string name="invalid_email">"Invalid email format "</string>
+    <string name="invalid_password">Invalid password format</string>
+    <string name="insert_your_password">Insert Your Password</string>
+    <string name="insert_your_email">Insert Your Email</string>
+
+    <string name="error_upload">Error Scanning Image</string>
+    <string name="required_field">Please fill this field</string>
+    <string name="invalid_phone_number">Invalid phone number</string>
+    <string name="enter_email">Enter email</string>
+
+    <string name="access_granted">Access granted</string>
+    <string name="access_denied">Camera permission denied. This feature will not work</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change">Change</string>
+
+
+</resources>

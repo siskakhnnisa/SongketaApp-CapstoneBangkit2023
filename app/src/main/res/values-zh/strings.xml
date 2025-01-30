@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Songket 识别应用</string>
+
+    <!-- 通用 -->
+    <string name="username">用户名</string>
+    <string name="profile">个人资料</string>
+    <string name="password">密码</string>
+    <string name="email">电子邮件</string>
+    <string name="home">主页</string>
+    <string name="bookmark">书签</string>
+    <string name="scan">扫描</string>
+    <string name="province">省份</string>
+    <string name="phone">电话</string>
+    <string name="sign_in">登录</string>
+    <string name="sign_up">注册</string>
+
+    <!-- 地图 -->
+    <string name="title_activity_maps">地图活动</string>
+    <string name="normal">正常</string>
+    <string name="satellite">卫星</string>
+    <string name="terrain">地形</string>
+    <string name="hybrid">混合</string>
+
+    <!-- 登录和注册 -->
+    <string name="create_new_account_here">在这里创建新帐户</string>
+    <string name="enter_username">输入用户名</string>
+    <string name="enter_your_email">输入您的电子邮件</string>
+    <string name="enter_your_phone_number">输入您的电话号码</string>
+    <string name="enter_your_password">输入您的密码</string>
+    <string name="show_password">显示密码</string>
+    <string name="already_have_an_account">已经有账号？</string>
+    <string name="sign_in_here">在这里登录</string>
+
+    <string name="signin_to_your_account">登录到您的帐户</string>
+    <string name="havent_have_account">还没有帐户？</string>
+    <string name="signup_here">在这里注册</string>
+    <string name="new_password">新密码</string>
+    <string name="enter_new_password">请输入新密码</string>
+
+    <!-- 欢迎 -->
+    <string name="opening1">让我们发现\n印度尼西亚宋凯布料</string>
+    <string name="sub_opening1">利用这个机会学习印尼宋凯特。</string>
+
+    <!-- 列表和书签 -->
+    <string name="search_here">在这里搜索…</string>
+    <string name="empty_search_notification">未找到给定搜索查询的项。</string>
+    <string name="cannot_get_data" config="zh">无法获取数据：%s</string>
+    <string name="something_error" config="zh">发生错误</string>
+
+    <!-- 相机 -->
+    <string name="galery">相册</string>
+    <string name="camera">相机</string>
+    <string name="check_out">查看</string>
+    <string name="photo_picker">照片选择器</string>
+    <string name="no_media_selected">未选择任何媒体</string>
+
+    <!-- 主页 -->
+    <string name="article">文章</string>
+    <string name="menus">菜单</string>
+    <string name="welcome">欢迎</string>
+    <string name="advertisement">广告</string>
+    <string name="you_may_be_interested">您可能感兴趣</string>
+    <string name="explore_more">探索更多</string>
+    <string name="market_finder">市场查找器</string>
+    <string name="scanner">扫描仪</string>
+    <string name="list_songket">宋凯特清单</string>
+    <string name="location_permission_granted">位置权限已授予。请重试。</string>
+    <string name="location_permission_denied">位置权限已拒绝。</string>
+    <string name="map_search_keyword">面料商店</string>
+    <string name="google_maps_not_installed">Google 地图应用未安装。</string>
+    <string name="feature_not_available_yet">尚未提供此功能</string>
+
+    <!-- 个人资料 -->
+    <string name="button_language">更改语言按钮</string>
+    <string name="dark_mode">暗模式</string>
+    <string name="language">语言</string>
+    <string name="sign_out">登出</string>
+    <string name="log_out_button">登出按钮</string>
+
+    <!-- 内容描述和工具预览 -->
+    <string name="songketa_logo">宋克塔徽标</string>
+    <string name="image_songket">宋凯特图片</string>
+    <string name="profile_image">个人资料图片</string>
+    <string name="background_image">背景图片</string>
+    <string name="market_finder_button">市场查找器按钮</string>
+    <string name="scanner_button">扫描仪按钮</string>
+    <string name="list_songket_button">宋凯特清单按钮</string>
+    <string name="article_button">文章按钮</string>
+    <string name="image_preview">图片预览</string>
+    <string name="songket_dummy">宋凯特虚拟</string>
+    <string name="province_dummy">省份虚拟</string>
+    <string name="desc_dummy">Lorem Ipsum Dolor Sit Amet</string>
+    <string name="menu_dummy">menu</string>
+    <string name="pattern_dummy">图案虚拟</string>
+    <string name="check_detail">查看详情</string>
+    <string name="songketa_quote">宋克塔引用</string>
+    <string name="login_image">登录图片</string>
+    <string name="register_image">注册图片</string>
+    <string name="bookmark_button">书签按钮</string>
+    <string name="detail_icon">详情图标</string>
+    <string name="home_button">主页按钮</string>
+
+    <!-- 详情 -->
+    <string name="details">详情</string>
+    <string name="fabric_origin">面料起源</string>
+    <string name="fabric_pattern">面料图案</string>
+    <string name="description">描述</string>
+    <string name="deleted">已删除</string>
+    <string name="favorite">喜爱 </string>
+
+    <!-- 相机 -->
+    <string name="upload_succes_notif">成功</string>
+
+    <!-- 警告对话框开始 -->
+    <string name="head_notif_succes">成功！</string>
+    <string name="login_succes_notif">登录成功，欢迎</string>
+
+    <string name="head_notif_failed">失败！</string>
+    <string name="login_failed_notif">登录失败，请重试</string>
+
+    <string name="next_notif">登录</string>
+    <string name="failed_notif">重试</string>
+
+    <string name="register_succes_notif">注册成功</string>
+    <string name="register_failed_notif">注册失败</string>
+
+    <string name="warning_notif">警告</string>
+    <string name="question_notif">您确定要退出吗？</string>
+    <string name="logout_notif">注销</string>
+    <string name="return_notif">返回</string>
+
+    <string name="message">功能尚未可用</string>
+    <string name="invalid_email">"无效的电子邮件格式 "</string>
+    <string name="invalid_password">无效的密码格式</string>
+    <string name="insert_your_password">请输入您的密码</string>
+    <string name="insert_your_email">请输入您的电子邮件</string>
+
+    <string name="error_upload">扫描图片出错</string>
+    <string name="required_field">请填写此字段</string>
+    <string name="invalid_phone_number">无效的电话号码</string>
+    <string name="enter_email">输入电子邮件</string>
+
+    <string name="access_granted">授予访问权限</string>
+    <string name="access_denied">相机权限被拒绝。此功能将无法使用</string>
+    <string name="edit_profile">编辑个人资料</string>
+    <string name="change">更改</string>
+</resources>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    tools:context=".ui.profile.ProfileFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="68dp"
+            android:layout_marginEnd="8dp"
+            app:strokeColor="@color/primary"
+            android:backgroundTint="@color/secondary2"
+            android:alpha="0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider3"
+            tools:alpha="100">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/dark_mode"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="start"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteX="26dp"
+                tools:layout_editor_absoluteY="441dp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/btn_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:thumbTint="@color/switch_thumb_selector"
+                app:trackTint="@color/switch_track_selector" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            app:strokeColor="@color/primary"
+            android:backgroundTint="@color/secondary2"
+            android:alpha="0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card1"
+            tools:alpha="100">
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/language"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteX="26dp"
+                tools:layout_editor_absoluteY="441dp" />
+
+            <ImageButton
+                android:id="@+id/btn_language"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"
+                android:background="@color/secondary2"
+                android:contentDescription="@string/button_language"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintVertical_bias="0.575"
+                app:srcCompat="@drawable/ic_language" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:alpha="0"
+            android:backgroundTint="@color/secondary2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card2"
+            app:strokeColor="@color/primary"
+            tools:alpha="100">
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Edit Password"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteX="26dp"
+                tools:layout_editor_absoluteY="441dp" />
+
+            <ImageButton
+                android:id="@+id/btn_edit"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"
+                android:background="@color/secondary2"
+                android:contentDescription="@string/log_out_button"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_config" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:alpha="0"
+            android:backgroundTint="@color/secondary2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card4"
+            app:strokeColor="@color/primary"
+            tools:alpha="100">
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/sign_out"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteX="26dp"
+                tools:layout_editor_absoluteY="441dp" />
+
+            <ImageButton
+                android:id="@+id/btn_logout"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"
+                android:background="@color/secondary2"
+                android:contentDescription="@string/log_out_button"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_logout" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/half_circle"
+            app:layout_constraintBottom_toBottomOf="@+id/divider3"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/half_circle"
+            android:contentDescription="@string/background_image" />
+
+        <ImageView
+            android:id="@+id/iv_image_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="135dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="24dp"
+            android:contentDescription="@string/profile_image"
+            android:src="@drawable/logo"
+            android:alpha="0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars"
+            tools:alpha="100"/>
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:alpha="0"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:text="@string/username"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_image_profile"
+            tools:alpha="100"
+            tools:text="@string/username"/>
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:alpha="0"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="@string/email"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_username"
+            tools:alpha="100"
+            tools:text="@string/email"/>
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:alpha="0"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="@string/phone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_email"
+            tools:alpha="100"
+            tools:text="@string/phone"/>
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@android:color/transparent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_phone" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

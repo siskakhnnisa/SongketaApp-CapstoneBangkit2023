@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">Aplikasi Pengenalan Songket</string>
+
+    <!-- Umum -->
+    <string name="username">Nama Pengguna</string>
+    <string name="profile">Profil</string>
+    <string name="password">Kata Sandi</string>
+    <string name="email">Email</string>
+    <string name="home">Beranda</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="scan">Pindai</string>
+    <string name="province">Provinsi</string>
+    <string name="phone">Telepon</string>
+    <string name="sign_in">Masuk</string>
+    <string name="sign_up">Daftar</string>
+
+    <!-- Maps -->
+    <string name="title_activity_maps">Aktivitas Peta</string>
+    <string name="normal">Normal</string>
+    <string name="satellite">Satelit</string>
+    <string name="terrain">Terain</string>
+    <string name="hybrid">Hibrida</string>
+
+    <!-- Masuk dan Daftar -->
+    <string name="create_new_account_here">Buat Akun Baru Di Sini</string>
+    <string name="enter_username">Masukkan nama pengguna</string>
+    <string name="enter_your_email">Masukkan email Anda</string>
+    <string name="enter_your_phone_number">Masukkan nomor telepon Anda</string>
+    <string name="enter_your_password">Masukkan kata sandi Anda</string>
+    <string name="show_password">Tampilkan Kata Sandi</string>
+    <string name="already_have_an_account">Sudah punya akun?</string>
+    <string name="sign_in_here">Masuk di sini</string>
+
+    <string name="signin_to_your_account">Masuk ke Akun Anda</string>
+    <string name="havent_have_account">Belum punya akun?</string>
+    <string name="signup_here">Daftar di sini</string>
+    <string name="new_password">Password Baru</string>
+    <string name="enter_new_password">Masukkan password baru</string>
+
+    <!-- Welcome -->
+    <string name="opening1">Mari kita temukan\nkain Songket Indonesia</string>
+    <string name="sub_opening1">Manfaatkan kesempatan ini untuk mempelajari\nSongket Indonesia.</string>
+
+    <!-- List dan Bookmark -->
+    <string name="search_here">Cari di sini…</string>
+    <string name="empty_search_notification">Tidak ditemukan item untuk kueri pencarian yang diberikan.</string>
+    <string name="cannot_get_data">Tidak dapat memuat data: %s</string>
+    <string name="something_error">Terjadi Kesalahan</string>
+
+    <!-- Kamera -->
+    <string name="galery">Galeri</string>
+    <string name="camera">Kamera</string>
+    <string name="check_out">Lihat</string>
+    <string name="photo_picker">Pemilih Foto</string>
+    <string name="no_media_selected">Tidak ada media yang dipilih</string>
+
+    <!-- Beranda -->
+    <string name="article">Artikel</string>
+    <string name="menus">Menu</string>
+    <string name="welcome">Selamat datang</string>
+    <string name="advertisement">Iklan</string>
+    <string name="you_may_be_interested">Anda mungkin tertarik</string>
+    <string name="explore_more">Jelajahi lebih lanjut</string>
+    <string name="market_finder">Pencari Pasar</string>
+    <string name="scanner">Pemindai</string>
+    <string name="list_songket">Daftar Songket</string>
+    <string name="location_permission_granted">Izin lokasi diberikan.</string>
+    <string name="location_permission_denied">Izin lokasi ditolak.</string>
+    <string name="map_search_keyword">toko kain</string>
+    <string name="google_maps_not_installed">Aplikasi Google Maps tidak terinstall.</string>
+    <string name="feature_not_available_yet">Features not available yet</string>
+
+    <!-- Profil -->
+    <string name="button_language">Ubah Bahasa</string>
+    <string name="dark_mode">Mode Gelap</string>
+    <string name="language">Bahasa</string>
+    <string name="sign_out">Keluar</string>
+    <string name="log_out_button">Tombol Keluar</string>
+
+    <!-- Deskripsi Konten dan Pratinjau Alat -->
+    <string name="songketa_logo">Logo songketa</string>
+    <string name="image_songket">Gambar Songket</string>
+    <string name="profile_image">Gambar Profil</string>
+    <string name="background_image">Gambar Latar Belakang</string>
+    <string name="market_finder_button">Tombol Pencari Pasar</string>
+    <string name="scanner_button">Tombol Pemindai</string>
+    <string name="list_songket_button">Tombol Daftar Songket</string>
+    <string name="article_button">Tombol Artikel</string>
+    <string name="image_preview">Pratinjau Gambar</string>
+    <string name="songket_dummy">Songket Dummy</string>
+    <string name="province_dummy">Provinsi Dummy</string>
+    <string name="desc_dummy">Lorem Ipsum Dolor Sit Amet</string>
+    <string name="menu_dummy">menu</string>
+    <string name="pattern_dummy">Pola Dummy</string>
+    <string name="check_detail">Periksa Detail</string>
+    <string name="songketa_quote">Kutipan Songketa</string>
+    <string name="login_image">Gambar Masuk</string>
+    <string name="register_image">Gambar Daftar</string>
+    <string name="bookmark_button">Tombol Bookmark</string>
+    <string name="detail_icon">Ikon Detail</string>
+    <string name="home_button">Tombol Beranda</string>
+
+    <!-- Detail -->
+    <string name="details">Detail</string>
+    <string name="fabric_origin">Asal Kain</string>
+    <string name="fabric_pattern">Pola Kain</string>
+    <string name="description">Deskripsi</string>
+    <string name="deleted">Dihapus dari bookmark</string>
+    <string name="favorite">Ditambahkan ke bookmark</string>
+
+    <!-- Kamera -->
+    <string name="upload_succes_notif">Sukses</string>
+
+    <!-- Dialog Peringatan -->
+    <string name="head_notif_succes">Sukses!</string>
+    <string name="login_succes_notif">Masuk Sukses, Selamat datang</string>
+    <string name="head_notif_failed">Gagal!</string>
+    <string name="login_failed_notif">Masuk Gagal, Coba lagi</string>
+    <string name="next_notif">Masuk</string>
+    <string name="failed_notif">Coba lagi</string>
+    <string name="register_succes_notif">Daftar Sukses</string>
+    <string name="register_failed_notif">Daftar Gagal</string>
+    <string name="warning_notif">PERINGATAN</string>
+    <string name="question_notif">Apakah Anda yakin ingin keluar?</string>
+    <string name="logout_notif">Keluar</string>
+    <string name="return_notif">Kembali</string>
+    <string name="message">Fitur belum tersedia</string>
+    <string name="invalid_email">"Format email tidak valid "</string>
+    <string name="invalid_password">Format kata sandi tidak valid</string>
+    <string name="insert_your_password">Masukkan kata sandi Anda</string>
+    <string name="insert_your_email">Masukkan email Anda</string>
+    <string name="error_upload">Error Memindai Gambar</string>
+    <string name="required_field">Mohon isi kolom ini</string>
+    <string name="invalid_phone_number">Nomor telepon tidak valid</string>
+    <string name="enter_email">Masukkan email</string>
+
+    <string name="access_granted">Akses diberikan</string>
+    <string name="access_denied">Izin kamera ditolak. Fitur ini tidak akan berfungsi</string>
+    <string name="edit_profile">Edit Profil</string>
+    <string name="change">Ubah</string>
+</resources>
