@@ -1,5 +1,5 @@
 # Songketa 
-Songketa or Songket Fabric Recognition App is an app designed to detect songket fabric patterns using camera or gallery input. It was developed as a capstone project for the **Bangkit Academy 2024 Batch 2** Independent Study Program by a team of seven members. The team is divided into three specializations: **two members in the Mobile Learning Path, two in the Cloud Computing Path, and three in the Machine Learning Path.**
+Songketa or Songket Fabric Recognition App is an app designed to detect songket fabric patterns using camera or gallery input. It was developed as a capstone project for the **Bangkit Academy 2023 Batch 2** Independent Study Program by a team of seven members. The team is divided into three specializations: **two members in the Mobile Learning Path, two in the Cloud Computing Path, and three in the Machine Learning Path.**
 Kotlin is used as the main language in this application.
 
 The images below are the user interface of the application that has been created
